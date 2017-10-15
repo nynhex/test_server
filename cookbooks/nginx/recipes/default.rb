@@ -6,5 +6,5 @@
 package 'nginx'
 
 service 'nginx' do
-  action :start
+  action [:start, :enable]
 end
